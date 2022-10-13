@@ -13,8 +13,6 @@ class PostController extends Controller
     {
         $posts = Post::latest()->paginate(4);
 
-        $posts->dad
-
         return PostResource::collection($posts);
     }
 
