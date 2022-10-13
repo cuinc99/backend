@@ -1,0 +1,18 @@
+GET http://localhost:8000/api/categories
+
+###
+POST http://localhost:8000/api/categories
+content-type: application/json
+
+{
+    "slug": "slug test",
+    "name": "name test"
+}
+
+###
+GET http://localhost:8000/api/posts
+
+###
+GET http://localhost:8000/api/user/1
+
+###
